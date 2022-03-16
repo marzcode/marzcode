@@ -1,4 +1,11 @@
 ### Hi there 👋
+This repository has been created for tohe possible hosting of an encryption that I rolled myself.
+But first I need to figure out what license I want to apply to it.
+
+I would like to be able to make money off this project as I have spent a considerable amount of time on it
+but at the same time I need to display it for public scrutenty
+
+so Im in two minds about the whole thing.
 
 <!--
 **marzcode/marzcode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

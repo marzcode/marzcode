@@ -1,23 +1,52 @@
-### Hi there 👋
-This repository has been created for tohe possible hosting of an encryption that I rolled myself.
-But first I need to figure out what license I want to apply to it.
+# Marzcode
+Ground Breaking encryption with fully customizable keys that was designed with both speed and security taken into consideration.
 
-I would like to be able to make money off this project as I have spent a considerable amount of time on it
-but at the same time I need to display it for public scrutenty
 
-so Im in two minds about the whole thing.
+So I am still unsure of what do do with this project.
+and am now entering the beta testing stage of seeing if the code can withstand various known attacks.
 
-<!--
-**marzcode/marzcode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+The crypto I have built allows you enter your own keys.
+It then takes these keys and uses them to encrypt your plain text message.
 
-Here are some ideas to get you started:
+The algorithm generates its own code chart
+and this needs to be shared with each party from the very begining
+along with a text file containing a list of keys used by various different ciphers
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Then when the first message is created, it deducts from the chart the equations it used (images a reel of raffle tickets)
+
+so that when the recipient of the message replys they will be replying using new equations.
+
+when the chart is first enerated it contains a fixed nunber of equations,
+However the parties envolved in communication
+are able to transmit new algorithms to generate more coded charts
+which will allow them to continue communicating.
+
+That is only stage one of the algorithm.
+
+Stage two then takes the output of these chart algorithms
+
+and applies a groud breaking block cipher
+that first divides the output into fixed blocks
+and then runs a unique cypher on each seperate block.
+
+These blocks are then broken down into smaller chunks and 
+and all the smaller chunks are placed togeether
+
+The chunks are then rearranged and built back up into larger chunks
+where a furhter cypher is then applied.
+
+The blocks are then broken back up into smaller chunks
+and a cypher is then applied to each small chunk
+
+These small chunks are then rearranged into a new order
+
+and a final cipher is applied.
+
+Further I would like to add that although my algorithm is symmetric in the since that
+the same keys are use for encryption and decryption.
+
+The same message encoded using the same keys and code charts will produce various different encrypted outputs.
+
+Almost like the opposit of what happens when you use hashing
+
+

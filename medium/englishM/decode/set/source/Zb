@@ -1,0 +1,2 @@
+
+cat start.txt r1.txt r2.txt end.txt > cg.py && python3 grow.py

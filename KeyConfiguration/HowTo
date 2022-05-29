@@ -1,0 +1,35 @@
+Ok so the files in this folder:
+
+the file 1680 is a list of all the permutations used for stage on encoding.
+
+so just shuffel this or whatever.
+and I was planning on implementing a way to share this between two parties by finding a way to share it over multiple messages.
+For example if we had a list of lets say five different permutations:
+"abcd
+abce
+abcf
+abcg
+abch"
+
+then in order to share the new 1680 code you would just have to share the list out over multiple messages.
+My logic behind this is that the script "newtry.py" (which goes on to exicute "st.py") formates out a list of codes that will cover multiple messages.
+
+So then all I have to do is implement a way to say write
+
+"adce" in my first message
+"abcg" in my second
+"abch" in my third
+"abcd" in my fourth
+and "abcf" in my fifth
+
+to let the other partie know that the new code is
+
+"abce
+abcg
+abch
+abcd
+abcf"
+
+anyway after shuffeling or rearranging the file 1680,save it as mylsp and just exicute the script "newtry.py" and you will be left with the files "dicts" and "master"
+
+you need these for the main encryption to work

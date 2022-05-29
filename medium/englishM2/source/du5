@@ -1,0 +1,1 @@
+?with open("tank.txt", 'w') as outfile:?!!!!outfile.write(mixer)

@@ -1,0 +1,5 @@
+mkdir next
+mv r*/* next
+rm -r r*
+cp source/script.py next
+cd next && python3 script.py

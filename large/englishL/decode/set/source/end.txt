@@ -1,0 +1,4 @@
+
+
+with open("xall", 'w') as outfile:
+    outfile.write(chuff)

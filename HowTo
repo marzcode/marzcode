@@ -1,35 +1,23 @@
-Ok so the files in this folder:
+Ok so in the folder "essental" you will find 3 files.
 
-the file 1680 is a list of all the permutations used for stage on encoding.
+first the "pickel.py" contains the nessisary code to convert any pickel.txt files into pickel.py.
 
-so just shuffel this or whatever.
-and I was planning on implementing a way to share this between two parties by finding a way to share it over multiple messages.
-For example if we had a list of lets say five different permutations:
-"abcd
-abce
-abcf
-abcg
-abch"
+Next the dict.txt and master needs to be placed into the temp folder of a language inorder to work the encryption process.
 
-then in order to share the new 1680 code you would just have to share the list out over multiple messages.
-My logic behind this is that the script "newtry.py" (which goes on to exicute "st.py") formates out a list of codes that will cover multiple messages.
+The master file is also used for the decyption process but not the dict.txt,
+Place the master file into the decode/Decode folder of a specific language.
 
-So then all I have to do is implement a way to say write
 
-"adce" in my first message
-"abcg" in my second
-"abch" in my third
-"abcd" in my fourth
-and "abcf" in my fifth
+The idea of the 3 folders,
+Large, Medium, Small
 
-to let the other partie know that the new code is
+Is that I am at the stage where I am trying to configure the algorithm to work smoothly for different text file sizes,
+Small would suit text messages,
+Large for like books,
+and medium for somewhere inbetween.
 
-"abce
-abcg
-abch
-abcd
-abcf"
+There is/was a bug with large text files, due to the pickeling, that it would not read the entirety of the pickel, as the master file had 100,000 of lines.
+so COnfigureKeys is setiing out to resolve that.
 
-anyway after shuffeling or rearranging the file 1680,save it as mylsp and just exicute the script "newtry.py" and you will be left with the files "dicts" and "master"
-
-you need these for the main encryption to work
+and it has also inspired the process of setting up medium and small.
+as large was and is the origianl project that I created.

@@ -1,8 +1,0 @@
-mkdir lev1
-mv results* lev1
-cd lev1
-rename 's/.+/our $i; sprintf("pic%06d.txt", 0+$i++)/e' $(ls -1 | sort -V)
-rename s:/:-:g */*.txt
-rmdir *
-ls | cat -n | while read n f; do mv "$f" "pic$n.txt"; done
-rename 's/.+/our $i; sprintf("pic%05d.txt", 0+$i++)/e' $(ls -1 | sort -V)
